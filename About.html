@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="icon" href="your-favicon.png" type="image/png">
+   
+
+  <style>
+    /* Reset & base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url('https://wallpaperaccess.com/full/35589.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll; /* better on mobile */
+      font-family: Arial, sans-serif;
+      color: white;
+      padding: 0 15px;
+    }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 100px;
+      padding: 10px;
+      z-index: 9999;
+    }
+
+    nav button {
+      border: none;
+      border-radius: 25px;
+      padding: 8px 16px;
+      background-color: rgb(236, 236, 240);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    nav button a {
+      color: rgb(8, 8, 8);
+      text-decoration: none;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    nav button:hover {
+      background-color: #a9b196c9;
+    }
+
+    /* Header section */
+    header {
+      padding-top: 120px; /* prevent overlap with nav */
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 60px;
+      font-family: "Times New Roman", Times, serif;
+      margin-bottom: 40px;
+    }
+
+    /* Main content */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+
+    /* Responsive for small screens */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 36px;
+        padding: 20px 0;
+      }
+
+      nav {
+        gap: 10px;
+      }
+
+      nav button {
+        font-size: 14px;
+        padding: 6px 12px;
+      }
+
+      main {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <button><a href="index.html">Home</a></button>
+    <button><a href="About.html">About</a></button>
+    <button><a href="Projects.html">Projects</a></button>
+    <button><a href="Skills.html">Skills</a></button>
+    <button><a href="Contact.html">Contact</a></button>
+  </nav>
+
+  <header>
+    <h1>About</h1>
+  </header>
+
+  <main>
+    <p>
+      I'm Manjish Karmacharya, a Computer and Information Sciences major at Norwich University with a minor in Computer Crime and Forensics. I'm passionate about solving real-world problems through technology and have hands-on experience in IT support, frontend development, and research-driven programming.
+    </p>
+    <p>
+      I've contributed to projects in flight simulation coding, artificial intelligence, and medical database systems, while also supporting users as an IT Helpdesk Intern at the Vermont Supreme Court. My diverse technical background is supported by a deep curiosity and a drive to learn fast and adapt quickly.
+    </p>
+    <p>
+      Whether it's building responsive web applications, debugging software issues, or exploring data-driven solutions, I bring a strong work ethic and a commitment to delivering practical, user-focused results.
+    </p>
+    <p>Let's connect and create something impactful!</p>
+  </main>
+  <footer>© 2025 Manjish Karmacharya</footer>
+
+</body>
+</html>

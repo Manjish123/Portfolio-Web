@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="your-favicon.png" type="image/png">
+
+
+
+
+</head>
+<style>
+    /* Reset margin and padding for body and div */
+body, div 
+{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 900px;
+  width: 100%;
+  text-align: justify;
+ 
+}
+
+/* Make background simpler on mobile */
+body 
+{
+  background-image: url('https://wallpaperaccess.com/full/35589.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll; /* changed from fixed for mobile */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Header */
+.h1 
+{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 60px;
+  padding: 90px 20px 50px 15px;
+  margin: 90;
+}
+
+/* Nav bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  /* full width */
+   
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+nav button 
+{
+  background-color: rgb(236, 236, 240);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button a 
+{
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav button:hover 
+{
+  background-color: #a9b196c9;
+}
+
+/* Container text */
+div 
+{
+  margin-top: 140px; /* to avoid overlap with fixed nav */
+  padding-bottom: 50px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) 
+{
+  .h1 
+  {
+    font-size: 36px;
+    padding: 30px 15px 20px 15px;
+  }
+  nav 
+  {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  nav button 
+  {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  div 
+  {
+    padding: 0 10px;
+  }
+  button 
+  {
+    margin: 10px 0;
+  }
+}
+
+</style>
+<body>
+  <nav>
+    <button><a href="index.html">Home</a></button>
+    <button><a href="About.html">About</a></button> 
+    <button><a href="Projects.html">Projects</a></button>  
+    <button><a href="Skills.html">Skills</a></button>  
+    <button><a href="Contact.html">Contact</a></button>
+  </nav>
+
+  <h1 class="h1">Portfolio</h1>
+
+  <div>
+    <h2>Hi, I'm Manjish Lal Karmacharya</h2>
+    <h3>Frontend Developer</h3>
+    <p>
+      Hello and welcome to my portfolio!<br><br>
+      I'm a passionate Computer and Information Science student actively seeking an internship opportunity where I can apply my skills, contribute to real-world projects, and continue growing in the field of Computer Science. Feel free to explore my work on this website, and don't hesitate to reach out if you're hiring or interested in collaborating!
+    </p>
+
+    <a href="hire.html" target="_blank"> 
+      <button>Hire Me</button>
+    </a>
+  </div>
+  <footer>© 2025 Manjish Karmacharya</footer>
+
+</body>
+</html>
